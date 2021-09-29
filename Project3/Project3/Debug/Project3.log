@@ -1,0 +1,50 @@
+﻿  district.cpp
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\district.cpp(272,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\district.cpp(296,22): warning C4018: '<': signed/unsigned mismatch
+  electionresults.cpp
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\electionresults.cpp(33,51): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+  electionround.cpp
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\electionround.cpp(21,10): warning C4101: 'm': unreferenced local variable
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\electionround.cpp(21,13): warning C4101: 'y': unreferenced local variable
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\electionround.cpp(21,7): warning C4101: 'd': unreferenced local variable
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\electionround.cpp(115,77): warning C4244: '+=': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\electionround.cpp(268,73): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\electionround.cpp(269,47): warning C4244: '+=': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\electionround.cpp(325,55): warning C4101: 'winner': unreferenced local variable
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\electionround.cpp(325,46): warning C4101: 'sumVote': unreferenced local variable
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\electionround.cpp(345,68): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\electionround.cpp(346,43): warning C4244: '+=': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+  main.cpp
+  menufunctions.cpp
+  Generating Code...
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\electionround.h(178): warning C4715: 'Election::ElectionGenerator::getType': not all control paths return a value
+C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\district.h(172): warning C4715: 'Election::DistrictGenerator::getType': not all control paths return a value
+  Project3.vcxproj -> C:\Users\yarde\OneDrive\שולחן העבודה\סמסטר א' שנה ב'\תכנות מכוון עצמים וCPP\פרויקט 3\Project3\Debug\Project3.exe
