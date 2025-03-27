@@ -18,7 +18,6 @@ namespace Election
 
 	ElectionRound::ElectionRound(ifstream& inFile)
 	{
-		int d, m, y;
 		inFile.read(rcastc(&_day), sizeof(int));
 		inFile.read(rcastc(&_month), sizeof(int));
 		inFile.read(rcastc(&_year), sizeof(int));
@@ -28,7 +27,6 @@ namespace Election
 
 		parties.load(inFile);
 		votes.load(inFile);
-
 	}
 
 	void ElectionRound::printParties() const

@@ -20,5 +20,7 @@ add_executable(main
     main.cpp
 )
 
+message(STATUS "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! CMAKE DEBUG PRINT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+
 # Include directories for header files
 target_include_directories(main PRIVATE ${CMAKE_SOURCE_DIR})
