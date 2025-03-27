@@ -175,6 +175,8 @@ namespace Election
 				return ElectionType::normal;
 			if (typeid(*election) == typeid(SimpleRound))
 				return ElectionType::simple;
+				
+			return ElectionType::normal; // Default
 		}
 	};
 }

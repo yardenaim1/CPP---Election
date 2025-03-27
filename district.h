@@ -169,6 +169,8 @@ namespace Election
 				return DistrictType::divided;
 			if (typeid(*district) == typeid(UnifiedDistrict))
 				return DistrictType::unified;
+
+			return DistrictType::divided; // Default
 		}
 	};
 }

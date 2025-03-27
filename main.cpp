@@ -1,3 +1,4 @@
+#include <iostream>
 #include "electionround.h"
 #include "menufunctions.h"
 
@@ -145,4 +146,5 @@ void Menu()
 int main()
 {
 	Menu();
+	return 0;
 }

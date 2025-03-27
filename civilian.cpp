@@ -1,3 +1,5 @@
+#pragma once
+
 #include "civilian.h"
 #include <iostream>
 
