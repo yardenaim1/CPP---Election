@@ -145,6 +145,13 @@ void Menu()
 
 int main()
 {
-	Menu();
+	try 
+	{
+		Menu();
+	}
+	catch (const std::exception ex)
+	{
+		std::cout << "Error: " << ex.what() << std::endl;
+	}
 	return 0;
 }
