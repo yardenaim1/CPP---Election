@@ -2,11 +2,10 @@
 #include "electionround.h"
 #include "menufunctions.h"
 
+// defines to handle try-catch blocks of code
 #define CATCH catch (const char* msg){ cout << "Error: " << msg << endl << endl;}
 #define CATCH_FILE catch (const char* msg){ cout << "Error: " << msg << endl << "Could not create an election round." << endl; exit(1); }
 #define CATCH_ALLOC catch (bad_alloc& ex) { cout << "Error: " << ex.what() << endl; exit(2);}
-
-// defines to handle try-catch blocks of code
 
 void Menu()
 {

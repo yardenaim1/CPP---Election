@@ -8,19 +8,26 @@ project(CPP_Election LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Add the executable target
-add_executable(main
-    civilian.cpp       
-    district.cpp    
-    electionround.cpp
-    electionResults.cpp
-    menufunctions.cpp
-    party.cpp
-    votecount.cpp  
-    main.cpp
-)
-
-message(STATUS "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! CMAKE DEBUG PRINT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+# Gather all .cpp files in src/ directory
+file(GLOB SOURCES "src/*.cpp")
+# Add the main executable
+add_executable(main ${SOURCES})
 
 # Include directories for header files
-target_include_directories(main PRIVATE ${CMAKE_SOURCE_DIR})
+target_include_directories(main PRIVATE ${CMAKE_SOURCE_DIR}/include)
+
+# Add Google Test
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE) # Ensure consistent runtime library
+add_subdirectory(external/googletest)
+
+# Add the test executable
+add_executable(my_tests
+    tests/test_plus.cpp
+    src/file_for_test.cpp
+)
+target_include_directories(my_tests PRIVATE ${CMAKE_SOURCE_DIR}/include)
+
+# Link Google Test to the test executable
+target_link_libraries(my_tests gtest gtest_main)
+
+message(STATUS "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! CMAKE DEBUG PRINT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
